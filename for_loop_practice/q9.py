@@ -1,9 +1,10 @@
 # Example 9: Python program that accepts a word from the user and reverses it.
 
 word = input('Enter a word : ')
-reversed_ = []
+reversed_ = ''
 
 for i in word:
-    reversed_.append(i)
-    
-print(reversed_.s)
+    reversed_ = i + reversed_
+
+print(reversed_)
+
