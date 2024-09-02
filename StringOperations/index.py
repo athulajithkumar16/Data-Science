@@ -11,6 +11,9 @@ print(name.split()) # returns a list
 # print(name)
 
 print(name.count('a'))
+replace_ = name.replace("S",'s')
+
+print(name.replace("S",'s'))
 # objectname.methodname()
 
 space_word = ' Test Message ' 
