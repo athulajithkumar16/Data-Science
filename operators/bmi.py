@@ -1,10 +1,10 @@
-weight = int(input('Weight(kg) :'))
 height = int(input('Height(cm) :'))
+weight = int(input('Weight(kg) :'))
 
 bmi = weight / (height/100)**2 
 print(bmi)
 
-if bmi < 18.5:
+if bmi < 18.5 and bmi > 0:
     print('Underweight !!')
 elif bmi > 18.5 and bmi < 24.9:
     print('Normal Weight')
