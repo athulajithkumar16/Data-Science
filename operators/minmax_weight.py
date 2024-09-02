@@ -6,5 +6,5 @@ max_weight = bmi_max * (height/100)**2
 min_weight = bmi_min * (height/100)**2
 
 
-print('Max Weight : ',max_weight)
-print('Min Weight : ',min_weight)
+print('Max Weight : ',round(max_weight,2))
+print('Min Weight : ',round(min_weight,2))
