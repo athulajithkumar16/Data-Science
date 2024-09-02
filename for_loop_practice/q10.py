@@ -7,5 +7,5 @@ sum = 0
 # print(len(str(number)))
 
 for i in range(1,len(str(number))+1):
-    sum += i^
+    # sum += i^
     print(i)
