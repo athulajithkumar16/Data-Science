@@ -26,6 +26,6 @@ elif operand == '*':
 elif operand == '/':
     print(f'{num1} / {num2} is {num1/num2}')
 elif operand == '//':
-    print(f'{num1} / {num2} is {num1//num2}')
+    print(f'{num1} // {num2} is {num1//num2}')
 else:
     print('Invalid Operand')
