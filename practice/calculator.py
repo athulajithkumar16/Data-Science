@@ -1,8 +1,8 @@
 
 
 
-num1 = int(input())
-num2 = int(input())
+num1 = int(input('Enter first number : '))
+num2 = int(input('Enter second number : '))
 
 operand = input('Operator (+ - * / //) : ')
 
@@ -27,3 +27,5 @@ elif operand == '/':
     print(f'{num1} / {num2} is {num1/num2}')
 elif operand == '//':
     print(f'{num1} / {num2} is {num1//num2}')
+else:
+    print('Invalid Operand')
