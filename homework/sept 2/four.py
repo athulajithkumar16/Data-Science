@@ -7,5 +7,7 @@
 
 license_plate = input('Enter license plate : ')
 
-if len(license_plate) == 7:
-    if license_plate[:4] ==  
+if len(license_plate) == 7 and license_plate[:3].isupper() == True and license_plate[-4:].isdigit() == True and ' ' not in license_plate:
+    print(f'License plate No. {license_plate} is Valid!')
+else:
+    print(f'License plate No. {license_plate} is Invalid!')
