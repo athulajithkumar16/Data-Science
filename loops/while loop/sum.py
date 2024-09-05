@@ -5,7 +5,7 @@ while i<=5:
     if i<5:
         print(i, end=' + ')
     else:
-        print(i,end=' ')
+        print(i,end=' ' )
     i=i+1
 
 print(f'= {sum}')
