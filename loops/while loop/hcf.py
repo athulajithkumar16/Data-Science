@@ -14,7 +14,6 @@ num2 = int(input('Enter another number : '))
 # METHOD 2
 
 i = min(num1, num2)
-
 while i <= min(num1,num2):
     if num1 % i == 0 and num2 % i == 0:
         hcf = i
@@ -22,5 +21,9 @@ while i <= min(num1,num2):
     i -=1
 print(hcf)
 
-# METHOD 3
-while 
+# METHOD 3 Euclidean algorithm
+
+# while(max(num1,num2)):
+#     num1 , num2 == num2 , num1 % num2
+
+# print(num1)
