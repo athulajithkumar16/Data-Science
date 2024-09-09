@@ -8,12 +8,12 @@ count = 0
 print(f'{name} has now been invited')
 count += 1
 
-choice = input('Do you want to invite someone ? ')
+choice = input('Do you want to invite someone ? (y/n) ')
 
 while choice.lower() == 'y':
     invite_name = input('Enter name of the person you want to invite : ')
     print(f'{invite_name} has now been invited')
     count += 1
-    choice = input('Do you want to add more? ')
+    choice = input('Do you want to add more? (y/n) ')
 
 print(f'You invited {count} people')
