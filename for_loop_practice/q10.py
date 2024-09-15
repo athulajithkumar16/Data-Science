@@ -6,9 +6,10 @@ number = int(input('Enter a number : '))
 sum = 0
 # print(len(str(number)))
 
-for i in range(1,len(str(number))+1):
-    sum += i^2
-
+for i in range():
+    last_digit = number % 10
+    sum += last_digit**2
+    number //= 10
 if sum == number:
     print('is Armstrong Number')
 else:
