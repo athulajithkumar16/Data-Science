@@ -23,16 +23,16 @@
 #         print('*', end='\t')
 #     print()
 
-# for row in range(1,5):
-#     for column in range(1,5):
-#         print(column, end='\t')
-#         if column == row:
-#             break
-#     print()
-
-for row in range(3):
-    for column in range(3):
-        print('*', end='\t')
+for row in range(1,5):
+    for column in range(1,row+1):
+        print(column, end='\t')
         if column == row:
             break
     print()
+
+# for row in range(3):
+#     for column in range(3):
+#         print('*', end='\t')
+#         if column == row:
+#             break
+#     print()
