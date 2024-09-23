@@ -5,3 +5,7 @@ list_ = [1,2,3,4,5]
 list_[0], list_[-1] = list_[-1], list_[0]
 
 print(list_)
+
+def test():
+    print('Test message')
+    

@@ -7,6 +7,7 @@
 #     statements
 # functionName()
 
-def greet():
-    print('Welcome 2025')
-# greet()
+def greet():    # function header
+    print('Welcome 2025')   #function body
+
+greet()     # function caller
