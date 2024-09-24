@@ -1,5 +1,5 @@
 # FUNCTION TO CHECK WHETHER A GIVEN NUMBER IS PRIME OR NOT
-def prime_or_not(num):
+def is_prime(num):
     flag = 0
     for i in range(2,num//2 + 1):
         if num % i == 0:
@@ -10,7 +10,7 @@ def prime_or_not(num):
     else:
         print('NOT PRIME')
 
-prime_or_not(num=int(input('Enter a number to check prime or not : ')))
+is_prime(num=int(input('Enter a number to check prime or not : ')))
 
 # FUNCTION TO PRINT PRIME NUMBERS BETWEEN A GIVEN LOWER BOUND AND UPPER BOUND
 def prime(lower,upper):
