@@ -7,7 +7,7 @@ def capitalize(string):
             dummy += string[i].upper()
         else:
             dummy += string[i]
-    print(dummy)
+    return dummy
 
 word = input('Enter a word : ')
-capitalize(word)
+print(capitalize(word))
