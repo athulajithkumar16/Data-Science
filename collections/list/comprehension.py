@@ -1,3 +1,6 @@
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
-print(x for x in )
+new_list = [x for x in fruits if 'a' in x]
+print(new_list)
+
+# [x for x in fruits if "a" in x]
