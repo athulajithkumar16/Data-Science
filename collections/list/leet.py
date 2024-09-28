@@ -53,20 +53,22 @@
 # list1 = [i for i in items if 'a' in i.lower()]
 # print(list1)
 
-words = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape','ace']
-list_ = []
-newlist = []
+# # QUESTION
+# words = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape','ace']
+# list_ = []
+# newlist = []
 
-for i in words:
-    if 'e' in i.lower() and len(i) > 3:
-        # if len(i)**2 % 2 == 0:
-        #     newlist.append(len(i)**2)
-        list_.append(len(i)**2)
+# for i in words:
+#     if 'e' in i.lower() and len(i) > 3:
+#         # if len(i)**2 % 2 == 0:
+#         #     newlist.append(len(i)**2)
+#         list_.append(len(i)**2)
 
-for i in list_:
-    if i%2 == 0:
-        newlist.append(i)
-        
-print(words)
-print(list_)
-print(newlist)
+# for i in list_:
+#     if i%2 == 0:
+#         newlist.append(i)
+
+# print(words)
+# print(list_)
+# print(newlist)
+
