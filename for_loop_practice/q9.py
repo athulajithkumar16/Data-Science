@@ -7,4 +7,3 @@ for i in word:
     reversed_ = i + reversed_
 
 print(reversed_)
-
