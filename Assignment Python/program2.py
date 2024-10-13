@@ -10,6 +10,7 @@ def is_identifer(string):
     else:
         return True
 
+
 identifiers = list(map(str, input('Enter identifers : ').split()))
 
 for i in identifiers:
@@ -17,3 +18,13 @@ for i in identifiers:
         print(f'{i} is valid')
     else:
         print(f'{i} is invalid')
+
+
+
+# # using isidentifier()
+# identifiers = list(map(str, input('Enter identifers : ').split()))
+# for i in identifiers:
+#     if i.isidentifier():
+#         print(f'{i} is Identifier')
+#     else:
+#         print(f'{i} is Not Identifier')

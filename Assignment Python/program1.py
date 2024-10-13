@@ -6,10 +6,12 @@ def is_identifer(string):
     if not (string[0].isalpha() or string[0] == '_'):
         return False
     for i in string[1:]:
-        if not(i.isalnum() or i == '_'):
+        if not (i.isalnum() or i == '_'):
             return False
     else:
         return True
+
+# _hello23
 
 string = input('Enter a string : ')
 print(is_identifer(string))
