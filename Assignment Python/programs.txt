@@ -1,0 +1,12 @@
+Week 1- Topic: Identifier, Input output Function, Operators
+
+2
+Write a Python program to find all the valid identifiers in a given string. Assume that identifiers are separated by spaces.
+3
+
+Write a Python program to find all the valid identifiers in a given string. Assume that identifiers are separated by spaces.
+
+
+4
+
+Write a Python program to generate all possible valid identifiers of length n, where n is provided by the user. Also take n values from user. Then create possible identifiers
