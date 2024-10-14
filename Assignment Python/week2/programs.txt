@@ -1,0 +1,36 @@
+
+6
+Q6. Accept three sides of a triangle and check whether it is an equilateral, isosceles or scalene triangle.
+Note:
+An equilateral triangle is a triangle in which all three sides are equal.
+A scalene triangle is a triangle that has three unequal sides.
+An isosceles triangle is a triangle with (at least) two equal sides.
+
+
+7 Write a program to accept two numbers and mathematical operators and perform operation accordingly.
+Like:
+Enter First Number: 7
+Enter Second Number: 9
+Enter operator : +
+Your Answer is: 16
+8
+A school has following rules for grading system:
+a. Below 25-F
+b. 25 to 45-E
+c. 45 to 50-D
+d. 50 to 60-C
+e. 60 to 80- B
+f. Above 80-A
+Ask user to enter marks and print the corresponding grade.
+9
+Q9. Accept any city from the user and display monument of that city.
+City
+Monument
+Delhi
+Red Fort
+Agra
+Taj Mahal
+Jaipur
+Jal Mahal
+10
+Take values of length and breadth of a rectangle from user and check if it is square or not.
