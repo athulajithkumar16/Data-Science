@@ -94,7 +94,7 @@
 
 # -----------------------------------------------------------------------------------------------------------
 
-# # Method Overloading
+# # METHOD OVERLOADING
 # # Two or more methods have the same name but
 # # different numbers of parameters or different types of parameters, or both.
 # class Sum:
@@ -116,12 +116,45 @@
 # ------------------------------------------------------------
 
 # Method Overloading Solved
-class Sum:
-    def add(self, *args):
-        return sum(args)
-object1 = Sum()
+# class Sum:
+#     def add(self, *args):
+#         return sum(args)
+# object1 = Sum()
 
-print(object1.add(2,3))
-print(object1.add(2,3,5))
+# print(object1.add(2,3))
+# print(object1.add(2,3,5))
 
 # Method Overloading is solved using None       (NOT *args)
+
+# ------------------------------------------------------------
+
+# METHOD OVERRIDING         - only in inheritance
+# defining a method in a subclass with the same name as a method in its superclass
+
+# class Parent:
+#     def car(self):
+#         print('Tata Nano')
+#     def bike(self):
+#         print('Hero Splendor')
+
+# class Child(Parent):
+
+#     def car(self):
+#         print('Polo')
+
+# object1 = Child()
+# object1.car()           # METHOD OVERRIDING
+# object1.bike()
+
+# ------------------------------------------------------------
+
+# Encapsulation
+# wrapping data and the methods that work on data within one unit.
+
+# This puts restrictions on accessing variables and methods and can prevent the accidental modification 
+# of data.
+
+# Abstraction
+# Polymorphism
+
+# Exception Handling, Regex
