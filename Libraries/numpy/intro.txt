@@ -1,0 +1,100 @@
+
+Data Science
+
+Data ========>
+
+BigData
+
+Huge Amount of Data
+
+High Volume
+High Velocity
+High Variety of Information
+
+Volume : Size of Data 
+    ===> kB, mb, gb, tb, pb, eb, zb, yb
+
+per day 40 yb
+
+Velocity : speed of data
+
+Variety ===> numbers, images, audio, text, pdf, documents
+
+BigData
+sprinklerData
+
+Data 
+-----------------------------------------
+1. Data Storage
+
+2. Data Analysis / Processing
+-----------------------------------------
+
+    Database
+    {
+        Oracle
+        MongoDB
+        PostSQL
+        Cassandra
+        Hbase
+        MySQL
+    }
+
+BigData Technologies
+    1. BigData Analysis
+    2. Data Science
+
+BigData Analysis        ===> Storage and Analysis
+
+    2 BigData tools 
+        1. Hadoop
+        2. Spark
+
+Data Science
+
+AI
+    1. NLP
+    2. Neural Networks
+    3. Machine Learning
+    4. Deep Learning
+
+Exploratory Data Analysis ( EDA )
+------------------------------------------------
+
+NLP Natural Language Processing
+Sentiment Analysis
+--------------------------------------
+
+Neural Networks
+Ant-Colony Optimization
+---------------------------
+Machine Learning
+---------------------------
+Deep Learning
+---------------------------
+
+Exploratory Data Analysis
+Data Set 
+
+NumPy
+Pandas
+Matplotlib
+Seaborn
+-------------------------------
+NumPy
+    Numerical Python
+    Used for Mathematical Operations
+
+    Ex :- Matrix, Vectors, Fourier Series
+
+Pandas
+    Data Manipulation
+        1. Data Analysis
+        2. Data Cleaning
+            Missing Values
+            Wrong Data      // Outliers
+            Useful Datas
+
+Matplotplib and Seaborn
+    Data Visualization
+    

@@ -1,0 +1,40 @@
+git 
+    version control system which track the changes in the code in our own machine
+
+github
+    remote application used to merge different more people into a project using repositories
+
+git push 
+    upload local content to a remote repository (github, bitlab)
+
+        git push origin main
+
+git clone
+    creates a local copy of a remote repository
+
+        git clone ...
+
+git pull
+    fetches changes from repository to local workspace
+
+        git pull
+
+
+
+git command --list
+
+
+
+git clone   - create a folder on local workspace
+git push    - changes are uploaded to remote location
+git pull    - changes from remote location to local workspace
+
+git add .
+git commit -m 'name'
+git push origin main
+
+git log
+--------------------------------
+
+git branch -m main
+git push origin main

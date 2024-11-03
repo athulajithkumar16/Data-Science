@@ -9,3 +9,4 @@ for num in range(size):
                 break
             else:
                 print(num, end=' ')
+                break
