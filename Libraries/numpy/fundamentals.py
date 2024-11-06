@@ -33,3 +33,17 @@ a = np.array([[1,2,3,4],
               [5,6,7,8]])       # 3 x 4
 
 b = a.reshape(4,3)          # 4 x 3
+b = a.reshape(2, 3, 2)          # 2 x 3 x 2
+
+c = arr.flatten()       # converts array into 1 dimension
+
+arr = np.arange(9, 101)     # arange() - to get a range of values in array
+
+arr = np.arange(1,21).reshape(1,5,4)
+
+arr = np.linspace(1,25, 6)      # start, stop, number of elements
+        # Return evenly spaced numbers over a specified interval
+
+# Arithmetic Operations
+    # Addition
+arr = np.add(a, b)
