@@ -47,3 +47,27 @@ arr = np.linspace(1,25, 6)      # start, stop, number of elements
 # Arithmetic Operations
     # Addition
 arr = np.add(a, b)
+arr = np.subtract(a, b)
+arr = np.multiply(a, b)
+arr = np.divide(a, b)
+arr = np.square(a)
+arr = np.sqrt(a)
+
+dotproduct = np.dot(a,b)
+
+# Slicing
+print(arr[1::2, :4])
+
+# Built in functions
+# sum()
+sum_arr = np.sum(arr)
+
+axis_arr = np.sum(arr, axis=0)        # column wise sum (axis = 0)
+axis_arr = np.sum(arr, axis=1)        # row wise sum (axis = 1)
+
+# SORTING
+sort_arr = np.sort(arr)      
+sort_arr = np.sort(arr)[::-1]      
+
+axis_arr = np.sort(arr, axis=0)        # column wise sort (axis = 0)
+axis_arr = np.sort(arr)                # default row wise sort (axis = 1)
